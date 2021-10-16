@@ -728,7 +728,7 @@ body {
 	border-radius:6px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 }
 .utf_aarlin_portfolio .portfolio_list ul li .inner .title {
 	position: absolute;
