@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+@media (max-width: 1040px) {
+.utf_aarlin_topbar .mainpart {
+	background-color: #020312;
+}
+.utf_aarlin_topbar .menu {
+	display: none;
+}
+.utf_aarlin_topbar .trigger {
+	display: block;
+}
+.utf_aarlin_hero_wrap .hero_texts h3 {
+	font-size: 55px;
+}
+.utf_aarlin_about_wrap .about_inner {
+	flex-direction: column;
+}
+.utf_aarlin_about_wrap .about_inner .leftpart {
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	padding-right: 0;
+}
+.utf_aarlin_about_wrap .about_inner .rightpart {
+	width: 100%;
+}
+.utf_aarlin_services_wrap .service_list ul li {
+	width: 50%;
+}
+.utf_aarlin_portfolio .portfolio_list ul li {
+	width: 50%;
+}
+.utf_aarlin_resume .resume_list ul li {
+	width: 50%;
+}
+.utf_aarlin_skills_wrap .skills_inner {
+	flex-direction: column;
+}
+.utf_aarlin_skills_wrap .skills_inner .left {
+	padding-right: 0px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.utf_aarlin_skills_wrap .skills_inner .right {
+	padding-left: 0px;
+	width: 100%;
+}
+.utf_aarlin_team_wrap .team_list ul li {
+	width: 50%;
+}
+.utf_aarlin_pricing_plan .pricing_list > ul > li {
+	width: 50%;
+	margin-bottom:40px;
+}
+.utf_aarlin_pricing_plan .pricing_list > ul > li:last-child{
+	margin-bottom:90px;
+}
+.utf_aarlin_blog_post .utf_blog_post_list ul li {
+	width: 50%;
+}
+.utf_aarlin_contact .contact_inner {
+	flex-direction: column;
+}
+.utf_aarlin_contact .contact_inner .left {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.utf_aarlin_contact .contact_inner .right {
+	width: 100%;
+	margin-left:0;
+}
+.utf_aarlin_footer_wrap .footer_inner {
+	flex-direction: column;
+}
+.utf_aarlin_footer_wrap .footer_inner .left {
+	margin-bottom: 10px;
+}
+.utf_aarlin_intro_inner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.utf_aarlin_intro_inner > ul > li {
+	width: 50%;
+}
+.utf_aarlin_intro_inner .features ul li {
+	width: 50%;
+}
+}
+@media (max-width: 768px) {
+.utf_aarlin_hero_wrap .hero_texts h3 {
+	font-size: 50px;
+}
+.utf_aarlin_about_wrap .about_inner .rightpart .info_list ul li {
+	width: 100%;
+}
+.utf_aarlin_services_wrap .service_list ul {
+	margin-left: 0px;
+}
+.utf_aarlin_portfolio .portfolio_list ul {
+	margin-left: 0px;
+}
+.utf_aarlin_portfolio .portfolio_list ul li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_services_wrap .service_list ul li {
+	width: 100%;
+	padding-left: 0px;
+	margin-bottom:35px;
+}
+.utf_aarlin_about_wrap .about_inner .rightpart .about_title h3 {
+	font-size: 30px;
+}
+.utf_aarlin_title_holder h3 {
+	font-size: 30px;
+}
+.utf_aarlin_resume .resume_list ul li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_resume .resume_list ul {
+	margin-left: 0px;
+}
+.utf_aarlin_skills_wrap .skills_inner .left h3 {
+	font-size: 30px;
+}
+.utf_aarlin_team_wrap .team_list ul li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_team_wrap .team_list ul {
+	margin-left: 0px;
+}
+.utf_aarlin_pricing_plan .pricing_list > ul > li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_pricing_plan .pricing_list > ul {
+	margin-left: 0px;
+}
+.utf_aarlin_blog_post .utf_blog_post_list ul li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_blog_post .utf_blog_post_list ul {
+	margin-left: 0px;
+}
+.utf_aarlin_contact .contact_inner .right .first_row ul li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_contact .contact_inner .right .first_row ul {
+	margin-left: 0px;
+}
+.utf_aarlin_intro_inner > ul > li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_intro_inner > ul {
+	margin-left: 0px;
+}
+.utf_aarlin_intro_inner .features ul li {
+	width: 100%;
+	padding-left: 0px;
+}
+.utf_aarlin_intro_inner .features ul {
+	margin-left: 0px;
+}
+}
+@media (max-width: 480px) {
+.utf_aarlin_hero_wrap .hero_texts h3 {
+	font-size: 36px;
+}
+.utf_aarlin_hero_wrap .hero_texts .typed-subtitle {
+    font-size: 24px;
+}	
+.typed-subtitle .typed-words {
+    display: block;
+    width: 100%;
+	height:32px;
+    line-height: 32px;
+}
+.typed-cursor{
+	display:none;
+}
+.utf_aarlin_button a{
+	padding:8px 20px;
+	margin-bottom:7px;
+}
+.utf_aarlin_hero_wrap .hero_texts .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1.2rem;
+    line-height: 1.8;
+}
+}
